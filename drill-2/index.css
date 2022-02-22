@@ -1,0 +1,72 @@
+.a {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.aa {
+    border-style: solid;
+    width: 95%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bb {
+    border-style: dotted;
+    width: 95%;
+    position: relative;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.cc {
+    border-style: outset;
+    box-sizing: border-box;
+    width: 50%;
+    height: 150px;
+    position: relative;
+    margin-left: 25%;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.purple {
+    height: 70px;
+    width: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: purple;
+}
+
+.green {
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+    background-color: green;
+}
+
+.blue {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 5px;
+    left: 270px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+.yellow {
+    height: 70%;
+    width: 90%;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background-color: khaki;
+    /* box-shadow: 5px, 5px, black; */
+}
