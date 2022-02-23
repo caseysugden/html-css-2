@@ -1,0 +1,63 @@
+.parent {
+    /* display: flex; */
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar {
+    height: 25vh;
+    width: 100%;
+}
+
+.gray {
+    height: 10vh;
+    background: lightgray;
+}
+
+.box {
+    position: relative;
+    top: 2vh;
+    left: 2vh;
+    height: 6vh;
+    width: 6vh;
+    background: blue;
+}
+
+.white {
+    height: 40vh;
+}
+
+p {
+    margin: 5vh;
+}
+
+.blue {
+    background-color: rgb(102, 136, 238);
+}
+.teal {
+    background-color: #66d8c5;
+}
+.grn {
+    background-color: rgb(174, 238, 174);
+}
+.yel {
+    background-color: rgb(250, 250, 104);
+}
+
+.black {
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 1vh;
+    height: 5vh;
+    justify-content: flex-end;
+    width: 5vh;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 50%;
+    line-height: 40px;
+    float: right;
+    margin-right: 1vh;
+}
